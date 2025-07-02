@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weather.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.7.2-web/css/all.min.css">
+    <script defer src="weather.js"></script>
+</head>
+<body>
+    <main>
+    <section>
+        <div class="search">
+            <div class="long">
+                <input type="text" id="location" required placeholder="enter a location">
+                 <p id="error">Error inavlid City Name</p>
+            </div>
+            <button><i class="fas fa-search"></i></button>
+        </div>
+       
+        <div class="main">
+            <img src="./photos/rain.png" alt="">
+           <h1 class="temperature">22°c</h1>
+            <h2 class="location">New York</h2>
+        </div>
+        <footer>
+            <div class="one">
+                <i class="fas fa-water"></i>
+                <div class="humidity"></div>
+                <div id="text">Humididty</div>
+            </div>
+            <div class="one">
+                <i class="fas fa-wind"></i>
+                <div class="wind"></div>
+                <div id="text">Wind Speed</div>
+            </div>
+        </footer>
+    </section>
+    </main>
+</body>
+</html>
